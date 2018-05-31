@@ -10,5 +10,7 @@ package Clases.Gente;
  * @author usuario
  */
 public class Personal  {
-    //extends Usuario??????????????????, no se deberian poder loggear
+    private String nombre;
+    private int diasQueTarda;
+    private boolean ocupado;
 }

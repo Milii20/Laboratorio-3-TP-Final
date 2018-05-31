@@ -3,8 +3,9 @@ package Clases.Habitaciones;
 
 public abstract class Habitacion {
     
+    private int idHabitacion;
     private String calidad;// Tipo de habitacion, Suit o Normal.
-    private int cantidad;// De personas en la habitacion.
+    private int cantidad;// De personas que puede tener la habitacion.
     private boolean disponibilidad;// Disponibilidad.
     private String estado; // Mantenimiento, sucia o limpia, que exploto o no.
     private float precio;// Chequear.
